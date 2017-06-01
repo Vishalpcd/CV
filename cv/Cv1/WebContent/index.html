@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 user-scalable=no">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="styling.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<title>home page</title>
+</head>
+<body> 
+<nav class="navbar navbar-inverse"><!--opening of nav tag  -->
+<div class="container-fluid">
+<div class="nvbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dt" aria-expanded="false">
+<span class="sr-only">toggle navigation</span><!-- it will only read the given text  -->
+<span class="icon-bar"></span><!-- it will create an icon on the button as single line  -->
+<span class="icon-bar"></span><!-- it will create on more line on the  -->
+</button><!-- closing of button tag -->
+<a class="navbar-brand" href="index.html">Vishal Pathak</a>
+</div><!-- closing of div tag of navbar-header -->
+<div class="collapse navbar-collapse" id="dt">
+<div class="navbar-right">
+<ul class="nav navbar-nav">
+<li><a href="CV.html">Resume</a></li>
+<li><a href="index.html" class="glyphicon glyphicon-home"></a>
+</ul>
+</div><!-- closing of div tag of navbar-right class -->
+</div><!-- closing of div atg of container-fluid class -->
+</div>
+</nav>
+<h3 class="heading">My Videos on Youtube</h3>
+<div class="carousel slide" id="myCarousel" data-ride="carousel">
+<ol class="crousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+</ol>
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<div class="embed-responsive embed-responsive-4by3">
+<iframe class="embed-responsive-item first-slide home-image" src="https://www.youtube.com/embed/UJ9tA-YM5Pc" ></iframe>
+</div>
+</div>
+<div class="item">
+<div class="embed-responsive embed-responsive-4by3">
+<iframe class="embed-responsive-item second-slide home-image" src="https://www.youtube.com/embed/fjVmzmivv2A"></iframe>
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

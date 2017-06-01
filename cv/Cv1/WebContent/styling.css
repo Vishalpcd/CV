@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+.bg{
+	background-color:#edeac0;
+}
+#ifr{
+	width:500px;
+	height:500px;
+}
+.heading
+{
+	text-align:center;
+}
